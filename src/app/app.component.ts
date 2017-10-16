@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { User } from './app.user';
+import { EmailValidator } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  user = new User();
+  on = false;
+
+  onSubmit() {
+    this.on = true;
+  }
 }

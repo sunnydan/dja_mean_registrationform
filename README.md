@@ -1,5 +1,7 @@
 # Registrationform
 
+Create a registration form which includes validations for each input as shown in the wireframe. Register button should be disabled until we pass all validations, upon a successful submission, present the user with the success message above the Account Information (reference the wireframe).
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.7.
 
 ## Development server
